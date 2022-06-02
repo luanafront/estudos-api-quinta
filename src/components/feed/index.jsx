@@ -31,7 +31,6 @@ const Feed = () => {
         let contador = 0
         setLike(contador+1)
     }
-    console.log(feedData)
 
     return (
         feedData === null ? 
@@ -54,8 +53,8 @@ const Feed = () => {
             {feedData.map((profile, index)=>{
                 return (
                     <div className="feedPerfil" key={index}>
-                        <p> {profile.name}</p>
-                        <img alt="" src={profile.avatar}/>
+                        <p className="name"> {profile.name}</p>
+                        <img alt="" className="imagemPubli" src={profile.avatar}/>
                         <div className="buttonPubli" >
                             <buton 
                                 className="buttonLike"

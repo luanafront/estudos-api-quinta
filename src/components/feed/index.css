@@ -1,15 +1,22 @@
 .feed {
-    background-color: rgb(145, 203, 216);
+    background-color: rgba(110, 197, 216, 0.442);
+    padding-top: 35px;
 }
 .button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(250, 235, 215, 0.34);
-
+    background-color: rgb(145, 203, 216);
+    backdrop-filter: blur(10px);
+    height: 50px;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding-bottom: 10px;
 }
 .imagemPerfil {
-    margin-top: 7px;
+    margin-top: 10px;
     height:55px;
 }
 .tituloFeed {
@@ -25,7 +32,7 @@
 }
 .feedPerfil {
     margin: 40px;
-    background-color: rgba(250, 235, 215, 0.256);
+    background-color: rgba(149, 200, 212, 0.554);
     padding: 10px;
     border-radius: 25px;
     color: rgb(33, 167, 200);
@@ -51,3 +58,10 @@
         font-size: 15px;
         border-radius: 10px;
     }
+.name {
+    margin: 3px;
+}
+.imagemPubli {
+    border-radius: 9px;
+    margin: 10px;
+}
