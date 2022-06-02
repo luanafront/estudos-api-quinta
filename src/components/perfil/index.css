@@ -1,0 +1,29 @@
+.profile{
+    background-color: rgb(145, 203, 216);
+}
+.buttonProfile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.buttonProfile__back{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.buttonProfile__logout {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.tituloProfile {
+    color: #fff;
+}
+

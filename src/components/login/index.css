@@ -1,0 +1,22 @@
+.login {
+    background-color: rgb(145, 203, 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.tituloLogin {
+    color: #ffff;
+
+}
+.buttonLogin {
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 40px;
+    border-radius: 8px;
+    font-size: 19px;
+}

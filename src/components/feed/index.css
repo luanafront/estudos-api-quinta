@@ -1,0 +1,25 @@
+.feed {
+    background-color: rgb(145, 203, 216);
+}
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.34);
+
+}
+.imagemPerfil {
+    margin-top: 7px;
+    height:55px;
+}
+.tituloFeed {
+    color: #fff;
+}
+.buttonLogout {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
