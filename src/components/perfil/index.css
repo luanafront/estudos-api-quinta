@@ -1,5 +1,7 @@
 .profile{
     background-color: rgb(145, 203, 216);
+    min-height: 100vh;
+    color: rgb(13, 133, 163);
 }
 .buttonProfile {
     display: flex;
@@ -26,4 +28,9 @@
 .tituloProfile {
     color: #fff;
 }
+.imagem_perfil {
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
 

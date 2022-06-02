@@ -23,3 +23,31 @@
     font-size: 15px;
     border-radius: 10px;
 }
+.feedPerfil {
+    margin: 40px;
+    background-color: rgba(250, 235, 215, 0.256);
+    padding: 10px;
+    border-radius: 25px;
+    color: rgb(33, 167, 200);
+}
+.buttonPubli {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    .buttonLike {
+        background-color: transparent;
+        border: 1px solid rgb(33, 167, 200);
+        color: rgb(33, 167, 200);
+        padding: 5px 15px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .buttonComment {
+        background-color: transparent;
+        border: 1px solid rgb(33, 167, 200);
+        color: rgb(33, 167, 200);
+        padding: 5px 15px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
