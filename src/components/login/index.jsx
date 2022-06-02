@@ -57,8 +57,8 @@ const Login = () => {
       axios.post("https://62913677665ea71fe142a512.mockapi.io/api/v1/login/", data)
       .then((res) => {
         let token = res.token
-        // localStorage.setItem("token", token)
-        // navigate("/feed/")
+        localStorage.setItem("token", token)
+        navigate("/feed/")
       })
     }
   }
